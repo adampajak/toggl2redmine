@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{ED2E0F41-ECEB-4988-8D5F-AA0C5D375DA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{FD0E05B3-B096-44BD-B319-33B8200949EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TogglClient", "Services\TogglClient\TogglClient.csproj", "{6F6BFFAB-65DA-48BA-A5E3-5B8748D2C71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toggl2RedmineCLI", "Console\Toggl2RedmineCLI\Toggl2RedmineCLI.csproj", "{97FA4BE6-FB46-4B7D-8E10-9D0AD2DE663E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6BFFAB-65DA-48BA-A5E3-5B8748D2C71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6BFFAB-65DA-48BA-A5E3-5B8748D2C71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6BFFAB-65DA-48BA-A5E3-5B8748D2C71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6BFFAB-65DA-48BA-A5E3-5B8748D2C71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FA4BE6-FB46-4B7D-8E10-9D0AD2DE663E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FA4BE6-FB46-4B7D-8E10-9D0AD2DE663E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FA4BE6-FB46-4B7D-8E10-9D0AD2DE663E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FA4BE6-FB46-4B7D-8E10-9D0AD2DE663E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F6BFFAB-65DA-48BA-A5E3-5B8748D2C71C} = {ED2E0F41-ECEB-4988-8D5F-AA0C5D375DA2}
+		{97FA4BE6-FB46-4B7D-8E10-9D0AD2DE663E} = {FD0E05B3-B096-44BD-B319-33B8200949EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF92BFAD-D6F1-4CF0-A0DC-F2FFDE9E67DC}
+	EndGlobalSection
+EndGlobal
