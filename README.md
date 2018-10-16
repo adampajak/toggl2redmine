@@ -1,2 +1,2 @@
 # toggl2redmine
-Easily transfer toggle time entries to Redmine
+Easily transfer toggl time entries to Redmine
